@@ -1,12 +1,12 @@
 
 body {
-  background-image: url('https://wallpapercave.com/wp/wp11861991.jpg'); /* o usa imagen local 'imagen2.jpg' */
-  background-size: cover;       /* La imagen cubre todo el fondo */
-  background-position: center;  /* Centrada */
-  background-repeat: no-repeat; /* No se repite */
-  background-attachment: fixed; /* Fijo al hacer scroll */
+  background-image: url('../imagenes/fondo.jpg'); 
+  background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  color: white; /* Para que el texto sea visible sobre el fondo */
+  color: white;
 }
