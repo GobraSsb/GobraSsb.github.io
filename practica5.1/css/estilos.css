@@ -28,11 +28,11 @@ p {
 }
 
 #header {
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: center;
   background-color: #FF9900;
   border-bottom: 5px solid #6599FF;
-  border-top: 5px solid #6599FF;
+  border-top: 15px solid #6599FF;
   color: white;
   padding-top: 10px;
 }
@@ -93,6 +93,9 @@ p {
   color: white;
   border-top: 5px solid black;
   clear: both;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #footer a{
