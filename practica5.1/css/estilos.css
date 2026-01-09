@@ -28,7 +28,7 @@ p {
 }
 
 #header {
-  margin-top: 35px;
+  margin-top: 20px;
   text-align: center;
   background-color: #FF9900;
   border-bottom: 5px solid #6599FF;
@@ -54,6 +54,9 @@ p {
   border: 1px solid #FF9900;
   font-family: 'Pacifico', cursive;
   font-size: 1.2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #menu a{
@@ -169,6 +172,10 @@ p {
   margin-bottom: 5px;
   padding-bottom: 5px;
   box-shadow: 2px 2px 50px black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #textOverflow {
