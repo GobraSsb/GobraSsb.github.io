@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #fff;
+  width: 320px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Header */
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #e9e9e9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background: #3b8ec2;
+  border-radius: 50%;
+}
+
+.user-info h2 {
+  margin: 0;
+}
+
+.user-info p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/* Bio */
+.bio {
+  color: #333;
+}
+
+/* Estadísticas */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.stats div {
+  flex: 1;
+}
+
+.stats h3 {
+  margin: 0;
+}
+
+.stats p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/* Botones */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-primary {
+  flex: 2; /* Ocupa más espacio */
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #3b8ec2;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #ddd;
+  cursor: pointer;
+}
